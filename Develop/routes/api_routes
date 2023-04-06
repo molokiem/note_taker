@@ -1,0 +1,9 @@
+const path = require("path");
+const router = require("express").Router();
+
+router.get("/notes", (client_request, client_response) => {
+  const notes = fs.readFileSync("db.json");
+  server_response.send(notes);
+});
+
+module.exports = router;

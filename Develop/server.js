@@ -6,4 +6,6 @@ const PORT = process.env.PORT || 3002;
 
 const app = express();
 
+app.use("/api", api_routes);
+
 app.listen(PORT, () => console.log("Server running on %s", PORT));
