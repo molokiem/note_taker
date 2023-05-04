@@ -15,7 +15,7 @@
 
 ## License
 
-- MIT Lisense
+- MIT License
 
 ## About
 
